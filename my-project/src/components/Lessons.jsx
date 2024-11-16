@@ -1,17 +1,48 @@
 import React from "react";
 
 const Lessons = () => {
-  const lessons = [
-    { id: 1, title: "SEM 1", description: "Standard 1 is a foundation Standard that reflects 7 important concepts and organise eveything" },
-    { id: 2, title: "SEM 2", description: "Standard 2 builds on the foundations of Standard 1 and includes requirements." },
-    { id: 3, title: "SEM 3", description: "Standard 3 of the Aged Care Quality Standards applies to all services delivering personal." },
-    { id: 4, title: "SEM 4", description: "Standard 4 of the Aged Care Quality Standards focuses on services and supports." },
-    { id: 5, title: "SEM 5", description: "Standard 5 Learning Resources. Learning Resources ensure that the school has the." },
-    { id: 6, title: "SEM 6", description: "Standard 6 requires an organisation to have a system to resolve complaints." },
-    { id: 7, title: "SEM 7", description: "Standard 7 Blood Management mandates that leaders of health service organisations." },
-    { id: 8, title: "SEM 8", description: "Standard 8 Course from NCERT Solutions help students to understand." },
-  ];
-
+    const lessons = [
+      {
+        id: 1,
+        title: "SEM 1",
+        description: "Focuses on the foundational concepts and principles to build a strong understanding of core subjects.",
+      },
+      {
+        id: 2,
+        title: "SEM 2",
+        description: "Introduces advanced foundational concepts and emphasizes critical thinking and problem-solving skills.",
+      },
+      {
+        id: 3,
+        title: "SEM 3",
+        description: "Explores practical applications of theoretical knowledge and introduces intermediate topics.",
+      },
+      {
+        id: 4,
+        title: "SEM 4",
+        description: "Covers in-depth studies of core subjects with a focus on project-based and collaborative learning.",
+      },
+      {
+        id: 5,
+        title: "SEM 5",
+        description: "Focuses on research, innovation, and technical mastery in specialized subjects.",
+      },
+      {
+        id: 6,
+        title: "SEM 6",
+        description: "Highlights real-world applications, case studies, and prepares students for internships or fieldwork.",
+      },
+      {
+        id: 7,
+        title: "SEM 7",
+        description: "Emphasizes leadership, advanced problem-solving, and implementation of innovative projects.",
+      },
+      {
+        id: 8,
+        title: "SEM 8",
+        description: "Prepares students for professional environments with industry-focused learning and capstone projects.",
+      },
+    ];
   return (
     <div className="bg-[#ffe5f0]  min-h-screen py-10 px-5">
       <h2 className="text-3xl font-bold text-center text-gray-800">Qualified lessons for students</h2>

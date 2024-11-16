@@ -25,7 +25,8 @@ const NoteHunters = () => {
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
             Grow up your knowledge <br />
-            and grades by <span className="text-[#ff6b6b]">NoteHunterss</span>
+            and grades by
+            <br /> <span className="text-[#ff6b6b]">NoteHunterss</span>
           </h1>
           <p className="text-gray-600 text-lg mb-8">
             Eduvi is a Global training provider based across the UK that specializes in accredited and bespoke training courses. We crush the barriers to getting a degree.
